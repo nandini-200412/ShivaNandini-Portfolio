@@ -240,7 +240,6 @@ body {
   padding: 25px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  margin-bottom: 20px;
   text-align: left;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -261,6 +260,13 @@ body {
     text-align: center;
   }
 }
+/* ===== PROJECTS GRID LAYOUT ===== */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+}
+
 
 /* ===== GALLERY ===== */
 .gallery {
@@ -319,6 +325,7 @@ section {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
 
