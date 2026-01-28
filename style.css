@@ -38,7 +38,7 @@ body {
 }
 
 .header nav a:hover {
-  color: var(--primary);
+  color: #6c63ff;
 }
 
 .header nav a {
@@ -246,7 +246,7 @@ body {
 
 /* ===== CONTACT ===== */
 .contact {
-  padding: var(--text-dark);
+  padding: 60px;
   background: #222;
   color: var(--text-light);
   text-align: center;
@@ -271,5 +271,6 @@ body {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
