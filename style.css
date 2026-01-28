@@ -222,6 +222,45 @@ body {
   transform: translateY(-8px);
   box-shadow: 0 15px 35px rgba(0,0,0,0.12);
 }
+/* ===== Projects ===== */
+.projects {
+  padding: 80px 10%;
+  background: #f8f9fc;  /* light background, same as body */
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  color: var(--primary);
+}
+
+.project-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card h3 {
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+/* Optional responsive */
+@media (max-width: 768px) {
+  .project-card {
+    text-align: center;
+  }
+}
 
 /* ===== GALLERY ===== */
 .gallery {
@@ -280,6 +319,7 @@ section {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
 
