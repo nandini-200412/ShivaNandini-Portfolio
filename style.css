@@ -92,7 +92,7 @@ body {
 /* ===== HERO ANIMATIONS ===== */
 .floating-shapes .shape {
   position: fixed;
-  opacity: 0.15;
+  opacity: 0.3;
   animation: float 6s ease-in-out infinite;
   z-index: -1;
 }
@@ -272,6 +272,7 @@ body {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
 
