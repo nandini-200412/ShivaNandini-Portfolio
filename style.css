@@ -318,7 +318,7 @@ nav a:hover {
 }
 
 /* ===== LAYER FIX (IMPORTANT) ===== */
-header,
+
 section {
   position: relative;
   z-index: 1;
@@ -345,5 +345,6 @@ section {
     /* stack skill cards */
   }
 }
+
 
 
