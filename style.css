@@ -63,9 +63,8 @@ nav a:hover {
   color: var(--text-light);
   text-align: center;
   position: relative;
-  /* needed for floating shapes */
   z-index: 1;
-  position: relative;
+
   
 }
 
@@ -319,10 +318,6 @@ nav a:hover {
 
 /* ===== LAYER FIX (IMPORTANT) ===== */
 
-section {
-  position: relative;
-  z-index: 1;
-}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
@@ -331,7 +326,7 @@ section {
     text-align: center;
   }
 
-  .header {
+  header {
     flex-direction: column;
   }
 
@@ -345,6 +340,7 @@ section {
     /* stack skill cards */
   }
 }
+
 
 
 
