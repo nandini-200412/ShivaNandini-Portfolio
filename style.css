@@ -252,6 +252,12 @@ body {
   color: var(--text-light);
   text-align: center;
 }
+/* ===== LAYER FIX (IMPORTANT) ===== */
+header,
+section {
+  position: relative;
+  z-index: 1;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
@@ -272,6 +278,7 @@ body {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
 
