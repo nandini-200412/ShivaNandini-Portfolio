@@ -94,7 +94,7 @@ body {
   position: fixed;
   opacity: 0.3;
   animation: float 6s ease-in-out infinite;
-  z-index: -1;
+  z-index: 0;
 }
 
 .shape.circle {
@@ -272,6 +272,7 @@ body {
     grid-template-columns: 1fr; /* stack skill cards */
   }
 }
+
 
 
 
